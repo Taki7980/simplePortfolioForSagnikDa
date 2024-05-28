@@ -1,20 +1,109 @@
 const ProjectData=[
       // replicate this to add new field
       {
-            title:"",
-            subtitle:"",
+            id:"1",
+            title:"helloworld",
+      
             date:"",
             description:"",
-            image:"",
+            image:"/images/cloud5.jpg",
+            link:"",
+            link2:"",
+            link3:"",
             subsection:[
                   // replicate this to add new subsection
                   {
-                        title:"",
+                        title:"helloworld",
                         description:"",
                         date:"",
-                        image:"",
+                        image:"/images/cloud5.jpg",
                         link:"",
-                  }
+                  },
+                  {
+                        title:"helloworld",
+                        description:"",
+                        date:"",
+                        image:"/images/cloud5.jpg",
+                        link:"",
+                  },
+                  {
+                        title:"helloworld",
+                        description:"",
+                        date:"",
+                        image:"/images/cloud5.jpg",
+                        link:"",
+                  },
+            ]
+      },
+      {
+            id:"1",
+            title:"helloworld",
+      
+            date:"",
+            description:"",
+            image:"/images/cloud5.jpg",
+            link:"",
+            link2:"",
+            link3:"",
+            subsection:[
+                  // replicate this to add new subsection
+                  {
+                        title:"helloworld",
+                        description:"",
+                        date:"",
+                        image:"/images/cloud5.jpg",
+                        link:"",
+                  },
+                  {
+                        title:"helloworld",
+                        description:"",
+                        date:"",
+                        image:"/images/cloud5.jpg",
+                        link:"",
+                  },
+                  {
+                        title:"helloworld",
+                        description:"",
+                        date:"",
+                        image:"/images/cloud5.jpg",
+                        link:"",
+                  },
+            ]
+      },
+      {
+            id:"1",
+            title:"helloworld",
+      
+            date:"",
+            description:"",
+            image:"/images/cloud5.jpg",
+            link:"",
+            link2:"",
+            link3:"",
+            subsection:[
+                  // replicate this to add new subsection
+                  {
+                        title:"helloworld",
+                        description:"",
+                        date:"",
+                        image:"/images/cloud5.jpg",
+                        link:"",
+                  },
+                  {
+                        title:"helloworld",
+                        description:"",
+                        date:"",
+                        image:"/images/cloud5.jpg",
+                        link:"",
+                  },
+                  {
+                        title:"helloworld",
+                        description:"",
+                        date:"",
+                        image:"/images/cloud5.jpg",
+                        link:"",
+                  },
             ]
       },
 ]
+export default ProjectData;
