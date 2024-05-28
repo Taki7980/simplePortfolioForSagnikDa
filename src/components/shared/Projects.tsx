@@ -5,7 +5,7 @@ import ProjectData from "@/data/data";
 
 const Projects = () => {
 	return (
-		<div className="md:max-w-6xl max-w-full h-full mx-auto mt-[-80px] pt-10 bg-white rounded-lg pb-20">
+		<div className="md:max-w-6xl max-w-full h-screen mb-0 md:mb-32 mx-auto mt-[-60px] pt-10 bg-white rounded-t-3xl pb-3 md:pb-20">
 			<Heading title={"My Work"} center subtitle="the works that i have done" />
 			<div className="grid grid-cols-1 md:grid-cols-3 pt-10 gap-4 justify-center md:max-w-6xl max-w-full">
 				
