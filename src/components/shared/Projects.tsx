@@ -10,7 +10,7 @@ const Projects = () => {
 			<div className="grid grid-cols-1 md:grid-cols-3 pt-10 gap-4 justify-center md:max-w-6xl px-10 max-w-full">
 				
 				{ProjectData.map((item, index) => (
-					<Card key={index} title={item.title} date={item.date} description={item.description} image={item.image} link={item.link} subsection={item.subsection} id={item.id} />
+					<Card key={index} title={item.title} date={item.date} description={item.description} image={item.image} subsection={item.subsection} id={item.id} />
 				))}
 			</div>
 		</div>
