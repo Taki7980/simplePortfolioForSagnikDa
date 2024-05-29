@@ -4,7 +4,7 @@ import React from "react";
 
 const Card = ({title,date,description,image,id,link,link2,link3,subsection}:CardProps) => {
 	return (
-		<div className="md:max-w-lg max-w-full h-full mx-auto bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 flex md:flex-col">
+		<div className="w-full h-full mx-auto bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 flex flex-col">
 			<div className="w-full md:h-1/2 h-full">
 				<Image
 					src={image}
@@ -16,7 +16,7 @@ const Card = ({title,date,description,image,id,link,link2,link3,subsection}:Card
 			</div>
 			<div className="p-5 w-full md:h-1/2 h-full">
 				<div >
-					<h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+					<h5 className="mb-2 md:text-2xl text-lg font-bold tracking-tight text-gray-900 dark:text-white">
 						{title}
 					</h5>
 				</div>
@@ -28,7 +28,7 @@ const Card = ({title,date,description,image,id,link,link2,link3,subsection}:Card
 				</p>
 				<Link
 					href={`/work/${id}`}
-					className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+					className="inline-flex items-center px-3 py-2 text-[10px] md:text-sm font-medium text-center text-white bg-[#028391] rounded-lg hover:bg-[#003285] focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
 				>
 					Read more
 					<svg
