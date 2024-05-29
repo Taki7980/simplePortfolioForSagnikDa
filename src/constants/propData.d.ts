@@ -4,9 +4,6 @@ declare interface CardProps {
 	date: string;
 	description: string;
 	image: string;
-	link: string;
-	link2?: string;
-	link3?: string;
 	subsection: {[
 		{
 			title: string,

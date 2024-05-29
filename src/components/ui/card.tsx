@@ -9,9 +9,6 @@ const Card = ({
 	description,
 	image,
 	id,
-	link,
-	link2,
-	link3,
 	subsection,
 }: CardProps) => {
 

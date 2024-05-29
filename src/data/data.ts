@@ -10,9 +10,7 @@ const ProjectData=[
             Major League Soccer club Inter Miami and the Argentina
             national team.`,
             image:"/images/cloud5.jpg",
-            link:"",
-            link2:"",
-            link3:"",
+            
             subsection:[
                   // replicate this to add new subsection
                   {
@@ -57,9 +55,7 @@ const ProjectData=[
             Major League Soccer club Inter Miami and the Argentina
             national team.`,
             image:"/images/cloud5.jpg",
-            link:"",
-            link2:"",
-            link3:"",
+            
             subsection:[
                   // replicate this to add new subsection
                   {
@@ -104,9 +100,7 @@ const ProjectData=[
             Major League Soccer club Inter Miami and the Argentina
             national team.`,
             image:"/images/cloud5.jpg",
-            link:"",
-            link2:"",
-            link3:"",
+            
             subsection:[
                   // replicate this to add new subsection
                   {
