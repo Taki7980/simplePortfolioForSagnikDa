@@ -33,7 +33,7 @@ const Card = ({
 					</h5>
 				</div>
 				<p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-					{description}
+					{description.slice(0, 200)}....
 				</p>
 				<p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
 					{date}
