@@ -39,6 +39,7 @@ const Card = ({
 					{details?.map((item, index) => (
 						<Link
 							key={index}
+							target="_blank"
 							href={item.link}
 							className="inline-flex items-center px-3 py-2 text-[10px] md:text-sm font-medium text-center text-white bg-[#028391] rounded-lg hover:bg-[#003285] focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
 						>
