@@ -7,7 +7,7 @@ declare interface CardProps {
 	link: string;
 	link2?: string;
 	link3?: string;
-	subsection: {[
+	subsection: [
 		{
 			title: string,
 			description: string,
@@ -16,7 +16,7 @@ declare interface CardProps {
 			link: string,
 		}
 	
-	]};
+	];
 }
 
 declare interface SubsectionProps {

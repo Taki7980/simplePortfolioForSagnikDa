@@ -23,7 +23,7 @@ const ProjectData=[
                         national team.`,
                         date:"",
                         image:"/images/cloud5.jpg",
-                        link:"",
+                        link:"/",
                   },
                   {
                         title:"football",
@@ -33,7 +33,7 @@ const ProjectData=[
                         national team.`,
                         date:"",
                         image:"/images/cloud5.jpg",
-                        link:"",
+                        link:"/",
                   },
                   {
                         title:"voleyball",
@@ -43,7 +43,7 @@ const ProjectData=[
                         national team.`,
                         date:"",
                         image:"/images/cloud5.jpg",
-                        link:"",
+                        link:"/",
                   },
             ]
       },
@@ -70,7 +70,7 @@ const ProjectData=[
                         national team.`,
                         date:"",
                         image:"/images/cloud5.jpg",
-                        link:"",
+                        link:"/",
                   },
                   {
                         title:"japan",
@@ -80,7 +80,7 @@ const ProjectData=[
                         national team.`,
                         date:"",
                         image:"/images/cloud5.jpg",
-                        link:"",
+                        link:"/",
                   },
                   {
                         title:"UK",
@@ -90,7 +90,7 @@ const ProjectData=[
                         national team.`,
                         date:"",
                         image:"/images/cloud5.jpg",
-                        link:"",
+                        link:"/",
                   },
             ]
       },
@@ -117,7 +117,7 @@ const ProjectData=[
                         national team.`,
                         date:"",
                         image:"/images/cloud5.jpg",
-                        link:"",
+                        link:"/",
                   },
                   {
                         title:"cloud",
@@ -127,7 +127,7 @@ const ProjectData=[
                         national team.`,
                         date:"",
                         image:"/images/cloud5.jpg",
-                        link:"",
+                        link:"/",
                   },
                   {
                         title:"storms",
@@ -137,7 +137,7 @@ const ProjectData=[
                         national team.`,
                         date:"",
                         image:"/images/cloud5.jpg",
-                        link:"",
+                        link:"/",
                   },
             ]
       },
