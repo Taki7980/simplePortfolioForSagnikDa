@@ -5,7 +5,6 @@ import React from "react";
 
 const Card = ({
 	title,
-	date,
 	description,
 	image,
 	id,
@@ -35,9 +34,7 @@ const Card = ({
 				<p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
 					{description.slice(0, 200)}....
 				</p>
-				<p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-					{date}
-				</p>
+				
 				<div className=" flex flex-col justify-center gap-5">
 					{details?.map((item, index) => (
 						<Link
