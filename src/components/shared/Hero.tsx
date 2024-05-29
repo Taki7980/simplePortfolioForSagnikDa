@@ -3,7 +3,7 @@ import Link from "next/link";
 import { FaLinkedin } from "react-icons/fa";
 const Hero = () => {
 	return (
-		<div className="md:h-[80vh] h-[100vh] bg-[#003285] flex flex-col items-center justify-center self-center gap-10 pb-20 px-10 md:px-0">
+		<div className="md:h-[80vh] h-[100vh] bg-[#003285] flex flex-col items-center justify-center self-center gap-10 md:pb-20 pb-0 px-10 md:px-0">
 			<Image
 				className="size-36 rounded-full"
 				height={80}

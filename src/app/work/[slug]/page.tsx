@@ -18,7 +18,7 @@ const page = async ({ params }: { params: { slug: string } }) => {
 				title={init?.title || "welcome"}
 				center
 			/>
-			<div className=" grid grid-cols-1 md:grid-cols-3 pt-10 gap-4 justify-center max-w-6xl">
+			<div className=" grid grid-cols-1 md:grid-cols-3 pt-10 gap-4 justify-center w-full px-10">
 				{details?.map((item, index) => (
 					<SubCard
 						key={index}
