@@ -1,18 +1,19 @@
+import ProjectData from "@/data/data";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
 const Card = ({
 	title,
-	date,
 	description,
 	image,
 	id,
-	link,
-	link2,
-	link3,
 	subsection,
 }: CardProps) => {
+
+	const details = ProjectData.find(
+		(item) => item.id === id
+	)?.subsection;
 	return (
 		<div className="w-full h-full mx-auto bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 flex flex-col">
 			<div className="w-full md:h-1/2 h-full">
@@ -31,13 +32,11 @@ const Card = ({
 					</h5>
 				</div>
 				<p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-					{description}
+					{description.slice(0, 200)}....
 				</p>
-				<p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-					{date}
-				</p>
+				
 				<div className=" flex flex-col justify-center gap-5">
-					{subsection.map((item, index) => (
+					{details?.map((item, index) => (
 						<Link
 							key={index}
 							href={item.link}
